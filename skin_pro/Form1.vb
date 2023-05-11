@@ -3,5 +3,6 @@
         Dim sm As MaterialSkin.MaterialSkinManager
         sm = MaterialSkin.MaterialSkinManager.Instance
         sm.AddFormToManage(Me)
+        sm.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK
     End Sub
 End Class
